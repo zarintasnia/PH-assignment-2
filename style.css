@@ -284,8 +284,8 @@ nav li a {
   background-color: steelblue;
 }
 
-/* BMI calculator section starts */
-.BMI-calculator{
+/* BMI calculator section starts */ */
+ .BMI-calculator{
  margin-top: 80px;
 }
 .BMI-calculator-contents{
@@ -310,6 +310,7 @@ nav li a {
   background-color: rgba(186, 176, 176, 0.1);
   margin-top: 50px;
   padding:50px 150px;
+ 
 }
 
 .BMI-table{
@@ -371,7 +372,10 @@ nav li a {
   color: rgba(186, 176, 176, 0.4);
   border: none;
   margin-bottom: 30px;
-}
+} 
+
+
+
 
 /* Oue team section */
 .our-team-header{
