@@ -239,4 +239,7 @@ nav li a {
   .container-1{
     margin-bottom: 30px;
   }
+  .habit-description{
+    max-width: 820px;
+  }
 }
