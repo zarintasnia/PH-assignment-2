@@ -408,7 +408,7 @@ nav li a {
 }
 .team-image-about{
   position: absolute;
-  top: 75%;
+  top: 65%;
   left:5%;
 }
 .our-team-images{
@@ -433,8 +433,8 @@ nav li a {
   max-width: calc(100% - 10px); /* Ensure it doesn't overflow */
 }
 .team-img-content img{
-  width: 270px;
-  height: 200px;
+  width: 250px;
+  height: 180px;
 }
 }
 
