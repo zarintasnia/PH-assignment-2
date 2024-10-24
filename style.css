@@ -422,6 +422,14 @@ nav li a {
   padding-bottom: 5px;
 }
 
+@media screen and (max-width:576px){
+  /* our team section */
+.team-img-content {
+  flex: 1 1 calc(100% - 10px); /* Full width for smaller devices */
+  max-width: calc(100% - 10px); /* Ensure it doesn't overflow */
+}
+}
+
 /* footer section starts */
 .footer{
   background-color: rgba(186, 176, 176, 0.1); 
@@ -568,14 +576,7 @@ hr{
   }
 
   
-.team-img-content img{
-  height:200px ;
-  width: 300px;
-}
-  .our-team-images{
-    width: 100%;
 
-  }
 
   /* footer section starts */
   .footer-section{
