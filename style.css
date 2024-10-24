@@ -26,6 +26,9 @@ shared styles */
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.text-color{
+  color: rgba(255, 255, 255, 0.65);
+}
 
 /* nav  styles */
 nav {
@@ -154,10 +157,51 @@ nav li a {
   right: 27%;
 }
 
+/* habit section starts */
+.habit-head{
+ text-align: center;
+}
+.habit-title{
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.habit-description{
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.habit-containers{
+  display: flex;
+ justify-content: space-between;
+ gap: 20px;
+}
+.habit-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.habit-img{
+  height: 40%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+ 
+
+}
+.container-1{
+  text-align: center;
+}
+.container-1-title{
+  color: white;
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 576px) {
   /* nav section stats */
   .margin {
-    margin: 50px 100px;
+    margin: 50px 70px;
   }
   .list {
     display: none;
@@ -180,11 +224,19 @@ nav li a {
     padding: 12px;
   }
   .card-1 {
-    top: 120%; /* Adjust vertical position if needed */
+    top: 130%; 
   }
 
   .card-2 {
-    top: 150%; /* Adjust vertical position if needed */
+    top: 150%; 
     right: 60%;
+  }
+
+  /* habit section starts */
+  .habit-containers{
+    flex-direction: column;
+  }
+  .container-1{
+    margin-bottom: 30px;
   }
 }
