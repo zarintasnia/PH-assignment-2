@@ -521,7 +521,9 @@ hr{
   /* run section starts */
   .run-containers{
     flex-direction: column;
+    padding: 0;
   }
+  
   .run-contents{
     width: 100%;
     margin-bottom: 40px;
@@ -565,6 +567,16 @@ hr{
     width: 100%;
   }
 
+  
+.team-img-content img{
+  height:200px ;
+  width: 300px;
+}
+  .our-team-images{
+    width: 100%;
+
+  }
+
   /* footer section starts */
   .footer-section{
     flex-direction: column;
@@ -582,4 +594,4 @@ hr{
   .footer-section{
     padding: 10px 70px;
   }
-}
+
