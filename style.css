@@ -428,6 +428,10 @@ nav li a {
   flex: 1 1 calc(100% - 10px); /* Full width for smaller devices */
   max-width: calc(100% - 10px); /* Ensure it doesn't overflow */
 }
+.team-img-content img{
+  width: 270px;
+  height: 200px;
+}
 }
 
 /* footer section starts */
